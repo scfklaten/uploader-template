@@ -1,0 +1,13 @@
+name = "uploader-template"
+main = "src/worker.js"
+compatibility_date = "2026-11-21"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[vars]
+GITHUB_OWNER = "scfklaten"
+GITHUB_REPO = "uploader-template"
+GITHUB_BRANCH = "main"
+IMAGE_DIR = "public/images"
